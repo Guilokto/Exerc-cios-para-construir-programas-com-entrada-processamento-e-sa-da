@@ -1,0 +1,8 @@
+### 5. Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o novo salário.
+
+Salario= float(input('Digite o Salario: '))
+Percentual= float(input('Informe o percentual de aumento: '))
+Aumento= (Salario*Percentual/100)
+print('Aumento de R$',Aumento)
+Novo_Salario= Aumento+Salario
+print('O Novo Salario é de',Novo_Salario)
