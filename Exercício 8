@@ -1,0 +1,8 @@
+### 8. Faça um programa que receba o valor de um depósito e o valor da taxa de juros, 
+calcule e mostre o valor do rendimento e o valor total depois do rendimento de um mês.
+
+deposito = float(input('Informe o valor do seu Deposito: '))
+taxa = float(input('Informe a Taxa de juros: '))
+rendimento = deposito * taxa /100
+total = deposito + rendimento
+print('Seu rendimento tolal é de', total, 'por mês')
