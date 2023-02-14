@@ -1,0 +1,10 @@
+### 6. Faça um programa que receba o salário base de um funcionário, calcule e mostre o salário a receber, sabendo-se que o funcionário tem gratificação de 5% sobre
+o salário base e **paga imposto** de 7% também sobre o salário base.
+
+Salario = float(input('Salario Bruto:'))
+Impostos = Salario *-7/100
+Bonificacao = Salario *5/100
+print('Impostos:',Impostos)
+print('Bonificacao',Bonificacao)
+Salario_Final = Impostos + Bonificacao + Salario
+print('Salario Final',Salario_Final)
