@@ -1,0 +1,6 @@
+### 12. Faça um programa que receba dois números, calcule e mostre um elevado ao outro.
+
+n1 = float(input('Digite seu valor: '))
+n2 = float(input('Digite o segundo valor: '))
+resultado = n1 ** n2
+print('Resultado: ',resultado)
