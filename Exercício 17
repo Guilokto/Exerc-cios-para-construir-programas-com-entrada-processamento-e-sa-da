@@ -1,0 +1,12 @@
+### 17. Um trabalhador recebeu seu salário e o depositou em sua conta bancária. Esse trabalhador emitiu dois cheques e agora deseja saber seu saldo atual.
+O banco criou uma taxa para a operação bancária de retirada que tem que pagar um imposto de 0.38% e o saldo inicial da conta está zerado.
+
+salario = float(input('Digite o valor do salario: '))
+cheque1 = float(input('Digite o valor do saque: '))
+cheque2 = float(input('Digite o valor do saque: '))
+imposto_cheque1 = cheque1 * 0.38 / 100
+saque1 = cheque1 + imposto_cheque1
+imposto_cheque2 = cheque1 * 0.38 / 100
+saque2 = cheque2 + imposto_cheque2
+saldo = salario - saque1 - saque2
+print('Seu saldo é de R$',saldo)
