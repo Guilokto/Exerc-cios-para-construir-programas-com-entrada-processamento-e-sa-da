@@ -1,0 +1,7 @@
+### 10. Faça um programa que calcule e mostre a área de um círculo. Sabe-se que: 
+    area = pi * raio² ou 
+    area = 3.1415 * raio²
+    
+raio = float(input('Informe o raio do circulo: '))
+area = 3.1415 * raio ** 2
+print('A area do circulo é',area)
