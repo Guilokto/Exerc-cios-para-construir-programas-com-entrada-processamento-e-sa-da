@@ -1,0 +1,14 @@
+### 16. Faça um programa que receba o número de horas trabalhadas e o valor do salário mínimo, calcule e mostre o salário a receber, seguindo estas regras:
+* a hora trabalhada vale a metade do salário mínimo.
+* o salário bruto equivale ao número de horas trabalhadas multiplicado pelo valor da hora trabalhada.
+* o imposto equivale a 3% do salário bruto.
+* o salário a receber equivale ao salário bruto menos o imposto.
+
+horas_trabalhadas = float(input('Informe as horars trabalhadas: '))
+salario_minimo = float(input('Informe o salario minimo: '))
+valor_hr_trabalhada = salario_minimo / 2
+valor_salario_bruto = valor_hr_trabalhada * horas_trabalhadas
+imposto = valor_salario_bruto * 3 / 100
+salario_liquido = valor_salario_bruto - imposto
+print('Impostos:-',imposto)
+print('Salario Liquido: ',salario_liquido)
