@@ -1,0 +1,7 @@
+###3. Faça um programa que receba três notas, calcule e mostre a média aritmética.
+
+Nota1=float(input('Nota da Primeira prova:' ))
+Nota2=float(input('Nota da Segunda prova:' ))
+Nota3=float(input('Nota da Terceira prova:' ))
+Nota_final= (Nota1 + Nota2 + Nota3)/3
+print('Sua nota final é',Nota_final)
