@@ -1,0 +1,15 @@
+### 11. Faça um programa que receba um número, calcule e mostre:
+* O número digitado ao quadrado
+* O número digitado ao cubo
+* A raiz do número digitado
+* A raiz cúbica do número digitado
+
+Numero = float(input('Digio seu valor: '))
+quadrado = Numero **2
+cubo = Numero ** 3
+raiz_quadrada = Numero ** 0.5
+raiz_cubica = Numero ** 0.33
+print('Seu valor ao quadrado é de: ',quadrado)
+print('Seu valor ao cubo é de ',cubo)
+print('A raiz quadrada do seu valor é ',raiz_quadrada)
+print('A raiz cubica do seu valoar é ',raiz_cubica)
