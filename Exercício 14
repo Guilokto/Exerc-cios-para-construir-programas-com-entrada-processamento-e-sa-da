@@ -1,0 +1,10 @@
+### 14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
+* a idade atual da pessoa;
+* quantos anos ela terá em 2050.
+
+idade1 = int(input('Informe seu ano de nascimento: '))
+idade2 = int(input('Informe o seu ano atual: '))
+idade3 = idade2 - idade1
+idade4 = 2050 - idade1
+print('Sua idade atual é', idade3, 'Anos')
+print('Sua idade em 2050 sera de:', idade4, 'Anos')
